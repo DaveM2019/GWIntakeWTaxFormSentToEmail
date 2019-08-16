@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #FFFFFF; /* #FFFFFF */
+  min-width: 400px; /* original 400px*/
+  max-width: 400px; /* original 400px*/
+}
+
+#mainview {
+  border: 1px solid black;
+}
+
+.customBtn {
+  background: #f1f1f1; /* original #f1f1f1 */
+  border-radius: 30%;
+  color: #3498db; /* original #3498db */
+  overflow: hidden;
+  position: relative;
+}
+
+/*MAIN VIEW BUTTONS*/
+.customBtn i {
+  line-height: 60px; /* original 60px */
+  font-size: 60px; /* original 60px */
+  transition: 0.8s linear;
+  text-align: center;
+}
+
+.customBtn:hover i{
+  transform: scale(1.3); /* original 1.3*/
+  color: #2be022; /* original #2be022 */
+}
+
+/* FLIPSIDE OF MAIN VIEW*/
+
+/* #container { */
+/*border-style: solid;*/
+/*border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-color: black;
+background-color: aliceblue;
+} */
+
+#row1 {
+  border-style: solid;
+  border-color: blue;
+}
+
+#row2 {
+  border-style: solid;
+  border-color: green;
+}
+
+#row3 {
+  border-style: solid;
+  border-color: orange;
+}
+
+#label {
+  font-size: 170%
+}
+/*
+span.btn1 {
+  color: blue;
+} */
